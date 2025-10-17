@@ -1,73 +1,77 @@
-# Welcome to your Lovable project
+# 💎 Luxe Store
 
-## Project info
+Aplicação web de e-commerce desenvolvida em **TypeScript**, com foco em design moderno, performance e boas práticas de desenvolvimento frontend.
 
-**URL**: https://lovable.dev/projects/a426c43d-b9d0-475b-b489-8809876b182d
+## 🛍️ Sobre o Projeto
 
-## How can I edit this code?
+O **Luxe Store** é uma loja virtual voltada para demonstração de funcionalidades de um e-commerce completo.  
+O projeto inclui telas de listagem de produtos, detalhes, carrinho de compras e autenticação de usuários.
+<img width="1337" height="545" alt="LuxeStore" src="https://github.com/user-attachments/assets/13704481-9bf0-460c-a123-491c4e49d7e0" />
 
-There are several ways of editing your application.
 
-**Use Lovable**
+## 🚀 Tecnologias Utilizadas
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a426c43d-b9d0-475b-b489-8809876b182d) and start prompting.
+- **TypeScript**
+- **Framework (React / Angular / Ionic)** *(ajuste conforme o seu caso)*
+- **HTML5 / CSS3**
+- **API REST** para integração com backend
+- **Node.js / npm** para gerenciamento de dependências
 
-Changes made via Lovable will be committed automatically to this repo.
+## ⚙️ Instalação e Execução
 
-**Use your preferred IDE**
+1. Clone o repositório:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+   ```bash
+   git clone https://github.com/seu-usuario/luxe-store.git
+Acesse a pasta do projeto:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+bash
+Copiar código
+cd luxe-store
+Instale as dependências:
 
-Follow these steps:
+bash
+Copiar código
+npm install
+Execute o projeto:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+bash
+Copiar código
+npm start
+O aplicativo será iniciado em http://localhost:4200 ou http://localhost:3000, dependendo do framework.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+🧩 Estrutura do Projeto
+go
+Copiar código
+luxe-store/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   └── app.(ts|tsx)
+├── package.json
+└── README.md
+📦 Funcionalidades
+🛒 Listagem e detalhes de produtos
 
-# Step 3: Install the necessary dependencies.
-npm i
+👤 Autenticação e cadastro de usuários
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+💰 Gerenciamento de carrinho e pedidos
 
-**Edit a file directly in GitHub**
+🌐 Integração com API REST
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+💅 Interface responsiva e moderna
 
-**Use GitHub Codespaces**
+🧠 Boas Práticas
+Código tipado com TypeScript
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Organização modular de componentes
 
-## What technologies are used for this project?
+Uso de serviços e injeção de dependência
 
-This project is built with:
+Separação de responsabilidades entre camadas
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/a426c43d-b9d0-475b-b489-8809876b182d) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+🧾 Licença
+Este projeto é distribuído sob a licença MIT.
+Sinta-se livre para usar, modificar e compartilhar.
