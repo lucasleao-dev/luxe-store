@@ -14,7 +14,7 @@ const Index = () => {
   const [cartItems, setCartItems] = useState<CartItem[]>([]);
   const [searchQuery, setSearchQuery] = useState("");
 
-  const filteredProducts = products.filter(product => 
+  const filteredProducts = products.filter(product =>
     product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
     product.description.toLowerCase().includes(searchQuery.toLowerCase())
   );
@@ -169,7 +169,8 @@ const Index = () => {
       <footer className="border-t border-border bg-card/50 backdrop-blur-sm">
         <div className="container mx-auto px-4 py-8">
           <p className="text-center text-sm text-muted-foreground">
-            © 2024 LuxeStore. Todos os direitos reservados.
+            © 2024 LuxeStore. Desenvolvido por Lucas Souza Leão. Todos os direitos reservados.
+
           </p>
         </div>
       </footer>
